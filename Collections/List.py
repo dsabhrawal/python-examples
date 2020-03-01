@@ -44,3 +44,19 @@ s = 'This is python'.split()
 print(s) #['This', 'is', 'python']
 #len() lenght of list
 print(len(s)) #3
+#modify list
+s[0] = 'Loving'
+s[1] = 'The'
+print(s) #['Loving', 'The', 'python']
+#slicing the list
+print(s[0:2]) #['Loving', 'The']
+print('deep' in s) #False
+print('python' in s) #True
+
+
+#List Iteration
+for i in s:
+    print(i)
+
+for i in range(len(s)):
+    print(i, s[i]) #Print value with index
