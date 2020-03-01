@@ -1,6 +1,6 @@
-# Touples are ordered sequence
+# Tuples are ordered sequence
 # Immutable
-# touples can have same or mix data type
+# tuples can have same or mix data type
 # (1,'a',1.6)
 
 x = (1,'a',1.5)
@@ -30,13 +30,13 @@ print(1 in d) #True
 for i in d:
     print(i)
 
-#Nested List and Touples
+#Nested List and Tuples
 l = [100, ['a', 'b', 'c'], 'paas']
 print(l)
 #Print nested elements
 print(l[1][0]) #a
 print(l[1][1]) #b
 
-g = [10,('a','b','c'), 'fail']
+g = [10,('a','b','c'), 'fail'] #Tuple inside list
 
-print(type(g[1]))
+print(type(g[1])) #<cjass 'tuple'>
