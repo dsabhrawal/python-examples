@@ -4,7 +4,7 @@
 
 import math
 
-print(dir(math))  #List of members in math module
+print(dir(math))  #List of members/functions in math module
 for i in dir(math):
     print(i)
 
