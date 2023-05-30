@@ -1,10 +1,10 @@
 x = 10
 
-print(type(x))
+print(type(x)) #<class 'int'>
 
 x = None
 
-print(type(x))
+print(type(x)) #<class 'NoneType'>
 
 
 #All variables points to single locaiton of None value in Memory
