@@ -91,3 +91,13 @@ item 7
 item 8
 item 9
 '''
+
+#Remove duplicates from the list
+numbers = [3,4,5,3,4,7,8,8,1]
+uniques = []
+
+for number in numbers:
+    if number not in uniques:
+        uniques.append(number)
+print(uniques)
+#output: [3, 4, 5, 7, 8, 1]
