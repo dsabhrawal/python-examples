@@ -53,6 +53,12 @@ print(s[0:2]) #['Loving', 'The']
 print('deep' in s) #False
 print('python' in s) #True
 
+#Sorting
+numbers = [10,40,4,6,7,2,50]
+numbers2 = numbers.copy()
+numbers2.sort() 
+print(numbers) #output: [10, 40, 4, 6, 7, 2, 50]
+print(f'sorted numbers! {numbers2}') #output: [2, 4, 6, 7, 10, 40, 50]
 
 #List Iteration
 for i in s:
