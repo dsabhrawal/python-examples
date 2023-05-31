@@ -47,4 +47,9 @@ x,y,z = numbers
 print(x)
 print(y)
 print(z)
-#output: 1,2,3
+#output:
+'''
+1
+2
+3
+'''
