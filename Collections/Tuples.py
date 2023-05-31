@@ -40,3 +40,11 @@ print(l[1][1]) #b
 g = [10,('a','b','c'), 'fail'] #Tuple inside list
 
 print(type(g[1])) #<cjass 'tuple'>
+
+#unpacking 
+numbers = (1,2,3)
+x,y,z = numbers 
+print(x)
+print(y)
+print(z)
+#output: 1,2,3
