@@ -14,7 +14,7 @@
 class Employee:
     ''' This is the version 1.0 of Employee class''' #doc string
     #Defining constructor of class Employee 
-    #self refers to the current object (same like this in java)
+    #self refers to the current object (same like this in java programming)
     #any variable defined with self is an instance variable in python
     def __init__(self):
         super().__init__()
@@ -50,6 +50,6 @@ e.display()
 #Employee Salary:  100000
 
 #Important Notes:
-#self is not a keyword or reserved word is python
+#self is not a keyword or reserved word in python
 #we can use any name instead of self like this
 #The first parameter paased to any instance method is pointing to the current object
